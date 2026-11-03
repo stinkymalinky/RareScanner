@@ -32,7 +32,7 @@ There are two modes:
 
 In both modes, the asset itself is saved to disk in an unencrypted format, alongside a hash and the asset's internal filepath. Because the filepath and hash are preserved, re-ripping the same asset doesn't produce duplicates, the hashes form a database for RareInjector to use.
 Assets are identified by filename, hash, and slight content analysis. Assets that can't be confidently identified are reported as "might be an asset." A per-game preset system exists, and some quirks require verification against a hash.
-**A fundamental limitation:** if a file is "protected" and inaccessible by the GPU to arbitrarily call, destructive mode can't reach it. A warning is displayed telling the user to use runtime mode for those assets. Fun little copyright workaround. Basically, it's a fundamental limitation of the tool.
+**A fundamental limitation:** if a file is "protected" and inaccessible by the GPU to arbitrarily call, destructive mode can't reach it. A warning is displayed telling the user to use runtime mode for those assets. Basically, it's a fundamental limitation of the tool.
 
 ## Asset Extraction
 
